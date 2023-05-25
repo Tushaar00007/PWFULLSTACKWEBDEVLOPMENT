@@ -1,0 +1,9 @@
+Q-What is web accessibility? List some of the assistive devices which plan a major role in providing
+accessibility.
+
+Ans-Web accessibility is the practice of designing websites so that they can be used by people with disabilities. This includes people who are blind, visually impaired, deaf, hard of hearing, have mobility impairments, or have cognitive disabilities.
+There are many different ways to make websites more accessible. Some common techniques include:
+Using clear and concise language
+Providing alternative text for images
+Using keyboard navigation
+Making sure that all content is readable by screen readers

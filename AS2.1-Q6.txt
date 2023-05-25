@@ -1,7 +1,0 @@
-Q-List any 5 semantic tags in HTML5 along with their descriptions.
-ans-
-article: An article is a self-contained piece of content, such as a news article, blog post, or product review.
-aside: An aside is a piece of content that is tangentially related to the main content of the page. For example, an aside could be used to provide additional information or to share a personal anecdote.
-details: A details element is used to group related content that can be hidden or shown by the user. For example, a details element could be used to hide a privacy policy or terms of service agreement.
-figure: A figure element is used to group related content, such as an image, a table, or a chart.
-section: A section element is used to group related content that is part of the main content of the page. For example, a section could be used to group content about different products or services.

@@ -1,0 +1,6 @@
+Q-List out the features of HTML5.
+Some features of HTML5 is 
+->HTML5 has video and audio tags, which allow web developers to embed video and audio content directly in their web pages. 
+->It has new semantic elements, such as header, footer, and section, which make it easier for web developers to structure their web pages. This can help search engines index web pages more effectively and improve the user experience.
+->It has new features for forms, such as the ability to validate input data and the ability to provide feedback to users. This can help web developers create more user-friendly forms.
+->It also has WebSockets, which allow web developers to create two-way communication channels between the browser and the server. This can be used for things like real-time chat or game updates.

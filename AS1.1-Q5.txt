@@ -1,7 +1,0 @@
-What is emmet? List some of the advantages emmet offers?
-Ans-Emmet is a popular abbreviation expansion syntax for HTML, CSS, and XML. It can be used to quickly and easily write code, and it can save you a lot of time.
-Emmet is available for many different text editors, including Sublime Text, Atom, and Visual Studio Code. 
-To use Emmet, you simply type a short abbreviation, and Emmet will expand it into full code. For example, the abbreviation div will be expanded into the following code:
-<div></div>
-It also supports features such as 
-attributes,class,ID etc.

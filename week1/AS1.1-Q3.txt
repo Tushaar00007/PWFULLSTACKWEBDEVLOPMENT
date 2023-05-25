@@ -1,0 +1,34 @@
+Q3)Write a simple program in HTML, the webpage must contain the heading “Comments” and below the heading add some
+information about comments. The webpage must be rendered on the web browser as
+below image.
+Ans-
+Tags
+HTML tags are used to define the structure and content of a web page. They are enclosed in angle brackets (< and >). The opening tag defines the start of an element, and the closing tag defines the end of an element. 
+For example, the following code defines a paragraph element:
+<p>This is a paragraph.</p>
+this code shows the use of anchor tag
+<a href="https://www.google.com"></a>
+
+Elements
+HTML elements are the building blocks of web pages. They are used to define the structure and content of a web page. HTML elements are enclosed in angle brackets (< and >). The opening tag defines the start of an element, and the closing tag defines the end of an element.
+There are many different HTML elements, each with its own purpose. Some common HTML elements include:
+
+p: paragraph
+h1: heading 1
+h2: heading 2
+h3: heading 3
+ul: unordered list
+
+ATTRIBUTES
+HTML attributes are name-value pairs that provide additional information about an HTML element. They are enclosed in the opening tag of an element, separated by spaces.
+for example in anchor tag 
+<a href="https://www.google.com"></a>
+The href attribute specifies the URL of the link. The text between the opening and closing tags is the content of the link element.
+here the attribute is  href which specifies the URL 
+these are different kinds of attributes
+href: Specifies the URL of a link.
+src: Specifies the path to an image file.
+alt: Specifies an alternate text for an image.
+title: Specifies a title for an element.
+class: Specifies a class name for an element.
+id: Specifies an ID for an element.

@@ -1,0 +1,58 @@
+<!-- Q-Create a webpage with 5 a tag similar to a navigation bar. Each link should change its color when it is hovered. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul {
+      display: flex;
+      background-color: rgb(205, 87, 213);
+    }
+
+    li {
+      padding: 10px;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a.purple:hover {
+      color: purple;
+    }
+
+    a.red:hover {
+      color: red;
+    }
+
+    a.yellow:hover {
+      color: yellow;
+    }
+
+    a.green:hover {
+      color: green;
+    }
+
+    a.orange:hover {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a class="purple" href="#">Home</a></li>
+    <li><a class="red" href="#">About</a></li>
+    <li><a class="yellow" href="#">Contact</a></li>
+    <li><a class="green" href="#">Blog</a></li>
+    <li><a class="orange" href="#">Services</a></li>
+  </ul>
+</body>
+
+</html>

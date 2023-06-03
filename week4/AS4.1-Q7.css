@@ -1,0 +1,53 @@
+.card-1 {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 0;
+  background-color: red;
+}
+
+.card-2 {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 0;
+  background-color: blue;
+}
+
+.card-3 {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 0;
+  background-color: yellow;
+}
+
+.card img {
+  width: 400px;
+  height: 200px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card-1:nth-of-type(1) {
+  z-index: 1;
+  left: 50px;
+  top: 20px;
+}
+
+.card-2:nth-of-type(2) {
+  z-index: 2;
+  left: 90px;
+  top: 20px;
+}
+
+.card-3:nth-of-type(3) {
+  z-index: 3;
+  left: 130px;
+  top: 20px;
+}

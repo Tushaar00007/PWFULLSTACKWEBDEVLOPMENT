@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading </title>
+
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .spinner {
+      border: 5px solid #0c0b0b;
+      border-radius: 50%;
+      border-top: 5px solid #f0f2f3;
+      width: 50px;
+      height: 50px;
+      -webkit-animation: spin 2s linear infinite;
+      /* Safari */
+      animation: spin 2s linear infinite;
+      display: flex;
+      margin: auto;
+      margin-top: 25%;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 60px;
+      text-align: center;
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Loading Animation</h1>
+  <div class="spinner"></div>
+</body>
+
+</html>

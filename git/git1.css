@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login {
+    padding: 40px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userbox {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .userbox input {
+    width: 100%;
+    /* padding: 10px 0; */
+    font-size: 16px;
+    color: #1d1313;
+    border: none;
+    border-bottom: 1px solid #1d1313;
+    outline: none;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+
+  .userbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: #777;
+    pointer-events: none;
+    transition: all 0.2s;
+  }
+
+  .userbox input:focus~label,
+  .userbox input:valid~label {
+    top: -20px;
+    font-size: 12px;
+    color: #1e87f0;
+  }
+
+  a {
+    display: inline-block;
+    background-color: #1e87f0;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+
+  a:hover {
+    background-color: #1472c4;
+  }
